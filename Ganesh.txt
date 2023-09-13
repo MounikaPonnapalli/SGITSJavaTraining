@@ -25,15 +25,6 @@ The people who is going for the restaurants to eat, They will be having differen
 customers will be comparing the details like taste, cost, quality of an item and decide the best of it....
 
 
-Abstraction :- 
--> Abstraction is the propertie of hiding the internal details and showing the functionality is known as Abstraction
-Example :- Human body (Brain)
-
-
-Encapsulation :- 
--> Binding the code and data together in a single unit is known as Encapsulation 
-Example :- Human body
-
 
 
 

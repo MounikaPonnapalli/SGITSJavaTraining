@@ -1,6 +1,6 @@
 Normal Interface
 
--> A normal interface can contail one or more abstract methods.
+-> A normal interface can contain one or more abstract methods.
 -> It can also have any number of static methods and default methods
 -> It can include public methods from the object class because all the Java classes implicitly extend Objects
 

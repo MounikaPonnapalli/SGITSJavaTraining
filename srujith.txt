@@ -1,6 +1,6 @@
 What is the difference between Interface and Functional Interface?
 
-i) Normal Interface :
+i)Interface :
 It is a blueprint of class
 A normal interface can contain one or more abstract methods.
 It can also have any number of static and default methods, and it can declare variables that are public static final (constants) by default.
@@ -11,4 +11,8 @@ A functional interface is a type of interface that has exactly one abstract meth
 Similar to a normal interface, it can also have any number of static and default methods, and it can include public methods from the Object class.
 Functional interfaces are designed to be used with lambda expressions and method references.
 
+Example:
+Online Meetings:
+when ahh team lead talks individually to each team mate then it will be known as an interface so here Teammates will be acts as ahh abstract methods
+when ahh team lead talks to whole team directly is known as an functional interface  so here Teammates will be acts as ahh abstract methods
 

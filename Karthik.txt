@@ -1,0 +1,15 @@
+Name: Karthik Yerramsetti
+Date:12-09-2023
+
+
+What is the difference between Interface and Functional Interface?
+Interface:
+An interface in Java is a blueprint of a class. It has static constants and abstract methods.
+The interface in Java is a mechanism to achieve abstraction. There can be only abstract methods in the Java interface, not method body. It is used to achieve abstraction and multiple inheritance in Java.
+In other words, you can say that interfaces can have abstract methods and variables. It cannot have a method body.
+Example:
+
+Functional Interface:
+An Interface that contains exactly one abstract method is known as functional interface. It can have any number of default, static methods but can contain only one abstract method. It can also declare methods of object class.
+Functional Interface is also known as Single Abstract Method Interfaces.
+Example:

@@ -16,3 +16,13 @@ Online Meetings:
 when ahh team lead talks individually to each team mate then it will be known as an interface so here Teammates will be acts as ahh abstract methods
 when ahh team lead talks to whole team directly is known as an functional interface  so here Teammates will be acts as ahh abstract methods
 
+Abstraction :- 
+-> Abstraction are the properties of hiding the internal data and showing the functionality is known as Abstraction
+Example :- laptop
+
+
+Encapsulation :- 
+-> Binding the code and data together in a single unit is known as Encapsulation 
+Example :- library
+
+

@@ -1,0 +1,14 @@
+What is the difference between Interface and Functional Interface?
+
+i) Normal Interface :
+It is a blueprint of class
+A normal interface can contain one or more abstract methods.
+It can also have any number of static and default methods, and it can declare variables that are public static final (constants) by default.
+It can include public methods from the Object class because all Java classes implicitly extend Object.
+
+ii) Functional Interface:
+A functional interface is a type of interface that has exactly one abstract method (SAM)
+Similar to a normal interface, it can also have any number of static and default methods, and it can include public methods from the Object class.
+Functional interfaces are designed to be used with lambda expressions and method references.
+
+

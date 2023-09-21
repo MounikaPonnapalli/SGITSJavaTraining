@@ -26,6 +26,13 @@ COMPILATION:
  Performs dataflow analysis on the trees from the previous step. This includes checks for assignments and reachability.
 
 6.Generate: Generates ‘.Class’ files. 
+ 
+javac                no error
+  -----------------------   |    -------------   |    -----------------------
+  | java code(abc.java) |------>|  compiler  |----->  |  Bytecode(abc.class) |
+  -----------------------       --------------    |    ------------------------
+              |-----------------------------------|
+                      error
 
 EXECUTION
 ---------
@@ -52,11 +59,13 @@ During execution, the JVM manages memory, including automatic memory management 
 
 The Java program continues to run until it completes its execution or encounters an unhandled exception. When it finishes, the JVM terminates the program.
 Output:
-
-
-
-
-
+                                       ----jit------------            
+ Bytecode                             |                   |
+ |     ----------------      -------------------       --------------       ------------
+-->    |class loader  |-- ->|  bytecode loading  |--->|interpretor  | ---->|hardware(os)|               
+       ----------------     |  or verifying      |     --------------       ------------
+                              -------------------|        
+             
 
 
 

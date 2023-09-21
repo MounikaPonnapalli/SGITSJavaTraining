@@ -1,0 +1,23 @@
+Name:KARTHIK
+Date:20-9-2023
+
+How a Java program runs internally?
+Java is a high-end programming language. We cannot run Java programs on a normal machine
+ this is because high-level programming languages need to be translated into machine code
+  first, due to this we run them on a Java compiler. It translates java language into 
+  the machine language making it easier for the machine to understand it. It is stated that
+   it is a platform-independent language and does not work on the simple one-step 
+   compiling.
+
+The working of the Java programming language can be seen in three steps.
+1.	we need to have a java source code otherwise we won't be able to run the program 
+you need to save it with the program.java extension.
+2.	we need to use a compiler so that it compiles the source code which
+ in turn gives out the java bytecode and that needs to have a program.class extension.
+  The Java bytecode is a redesigned version of the java source codes, and this bytecode 
+  can be run anywhere irrespective of the machine on which it has been built.
+3.	we put the java bytecode through the Java Virtual Machine which is an interpreter that
+ reads all the statements thoroughly step by step from the java bytecode which will 
+ further convert it to the machine-level language so that the machine can execute the code.
+  We get the output only after the conversion is done.
+

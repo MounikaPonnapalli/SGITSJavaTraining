@@ -1,0 +1,12 @@
+How a Java Program Runs Internally?
+1) When the program starts exicuting,two areas will be created one is stack area and other is heap area
+2) stack area is used for execution
+3) heap area is used for storage
+4) java virtual machine(JVM) makes use of 3 resources
+1:class loader 2:main method 3:garbage collector
+5)class loader is resposible to load all the static method into static pool area main method will be exicuted statement by statement 
+6)new operator is responsible to load all the non static method into object 
+7)object address will be assign to object reference variable
+8)'.'operator is known as access operator
+9)every method will enter stack area and exicutes and after execution is completed it will exit the stack area
+10)garbage collector is responsible for cleaning heap area and stack area have a great power that it will clean by itself.

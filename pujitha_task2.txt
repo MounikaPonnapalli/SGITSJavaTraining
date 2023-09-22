@@ -1,0 +1,73 @@
+ How a java file will be compiled and executed?
+  
+      As we know that java is a platform independent language,it doesn't work on one step complition.It involves in two step execution, first through an OS(operating system)-independent compiler and second, in a virtual machine (JVM) execution, first through an OS-independent compiler; and second, in a virtual machine (JVM) which is custom built for every operating system.
+
+COMPILATION:
+-----------
+      First, the source ‘.java’ file is passed through the compiler,the content of each class  in the source file is stored in a separate ‘.class’ file.which converts the source code into the bytecode.The  compiler follows the following steps:
+   1.PARSE:
+   --------
+        The java compiler starts by reading the source code files containing the Java program we written,which is saved with .java extention .After reading the source files,Tokenization involves breaking down the code into individual units or tokens. These tokens represent the fundamental building blocks of the Java language, such as keywords, identifiers, operators, literals, and punctuation marks.After this,it will construct the Abstract Syntax Tree (AST). An AST is a hierarchical representation of the structure and relationships of the code in your source files.For example, if you have a Java class with methods, fields, and control flow statements, the AST would represent the class as a node with child nodes for methods, variables, and so on.
+
+ 2.Enter Sysbol table:
+   ------------------
+         . This step is essential for managing and tracking symbols, type information, and scope-related aspects of your Java program, checks for  language's rules and can be further processed in later compilation stages.
+
+3.Process annotation:
+  ------------------
+        Java compilation involves inspecting the Java source code for annotations and performing actions or generating code based on their presence and semantics. Annotations are a powerful tool in Java that allows developers to convey metadata and customize various aspects of code behavior, documentation, or runtime operations.
+
+4. Attribute:
+-------------
+        Attributes the Syntax trees. This step includes name resolution, type checking and constant folding.
+
+ 5.Flow:
+---------
+ Performs dataflow analysis on the trees from the previous step. This includes checks for assignments and reachability.
+
+6.Generate: Generates ‘.Class’ files. 
+ 
+javac                no error
+  -----------------------   |    -------------   |    -----------------------
+  | java code(abc.java) |------>|  compiler  |----->  |  Bytecode(abc.class) |
+  -----------------------       --------------    |    ------------------------
+              |-----------------------------------|
+                      error
+
+EXECUTION
+---------
+    Java source code is executed by first compiling it into bytecode using the javac compiler. The resulting bytecode is then executed by the Java Virtual Machine (JVM), which interprets or compiles it to native machine code.The JVM manages the program's execution, memory, and resources, providing a platform-independent runtime environment for Java applications
+
+->loading :
+
+     When we run a Java program using the java command, the JVM loads the bytecode files into memory like Stack area or heap area.Stack area is used for storing the tempary variables and allocates one frame to each thread and it destorys after completion of execution .Heap area is used for allocating the object during runtime.
+
+->Execution:
+
+The JVM interprets and executes the bytecode instructions.
+Alternatively, some JVM implementations will use Just-In-Time (JIT) compilation to translate bytecode into native machine code, which can used for improving execution speed.
+
+->Runtime Behavior:
+
+The Java program runs based on the logic defined in the bytecode. It can interact with the system, perform computations, access data, and produce output.
+
+->Garbage Collection:
+
+During execution, the JVM manages memory, including automatic memory management through garbage collection. It reclaims memory used by objects that are no longer referenced by the program.
+
+->Termination:
+
+The Java program continues to run until it completes its execution or encounters an unhandled exception. When it finishes, the JVM terminates the program.
+Output:
+                                       ----jit------------            
+ Bytecode                             |                   |
+ |     ----------------      -------------------       --------------       ------------
+-->    |class loader  |-- ->|  bytecode loading  |--->|interpretor  | ---->|hardware(os)|               
+       ----------------     |  or verifying      |     --------------       ------------
+                              -------------------|        
+             
+
+
+
+
+     

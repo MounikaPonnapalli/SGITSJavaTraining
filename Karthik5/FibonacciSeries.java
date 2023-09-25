@@ -9,9 +9,8 @@ public class FibonacciSeries {
     
         while (current <= 50) {
             System.out.print(current + " ");
-            int next = current + previous;
-            previous = current;
-            current = next;
+            current= current+ previous;
+            previous = current - previous;
         }
     }
 }

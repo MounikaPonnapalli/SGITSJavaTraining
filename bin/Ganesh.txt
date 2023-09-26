@@ -1,0 +1,36 @@
+Normal Interface
+
+-> A normal interface can contain one or more abstract methods.
+-> It can also have any number of static methods and default methods
+-> It can include public methods from the object class because all the Java classes implicitly extend Objects
+
+Example :-
+Lets take an example of Restaurants food items like (idly, Dosa, chapathi, puri ....etc) and need to answer only few questions... like
+
+*Whats the cost of an item?
+*Whats the different items that you provide?
+*How does it taste..?
+We don't force them to answer in a specific way; they can tell us whatever they think is right."You must tell us only certain things ,"but it doesn't tell them exactly how to do it.
+
+
+Functional Interface
+
+-> An Interface that has exactly one abstarct method (SAM - Single Abstarct Method).
+-> It can also have any number of static methods and default methods
+-> Functional interface are designed to be used with lambda expressions and method references.
+
+Example :- 
+The people who is going for the restaurants to eat, They will be having different taste like ,some people like spicy , so people like less spicy, Quality, taste etc... people have there own thought what to eat now and choose the item to eat...
+
+customers will be comparing the details like taste, cost, quality of an item and decide the best of it....
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+M.Venkata Sai Ganesh
+
+Abstraction
+ 
+-> Abstraction allows us to hide the details and shaow only needed information to the user.. 
+-> Abstraction allows you to create a blueprint for objects without specifying their exact implementation.
+
+A practical example of Abstraction - Television remote control
+
+    TV remote control with several buttons like power, volume up, volume down, channel up, and channel down. When you press the "volume up" button your TV volume get incresed.
+   However, you don't need to know how the remote control sends signals to the TV or how the TV processes those signals internally. All you need to know is that when you press the "volume up" button, the volume goes up.
+
+
+
+Encapsulation
+
+->Encapsulation in Java is wrapping the data (variables) and methods (functions) that operate on the data into a single unit called a class
+-> In simple words binding up all in one single unit is called as Encapsulation..
+
+A practical example of Encapsulation - Human Body
+
+     Think of the various organs in the human body (e.g., heart, lungs, kidneys) as encapsulated components. Each organ has a specific function, and its internal workings are hidden from the outside.
+     The functions of the organs are like methods in a class.The heart's function is to pump blood, the lungs' function is to exchange gases, and the kidneys' function is to filter blood.
+     In summary, the human body encapsulates its vital organs and functions, providing controlled access and feedback mechanisms for maintaining its internal state. 
+
+

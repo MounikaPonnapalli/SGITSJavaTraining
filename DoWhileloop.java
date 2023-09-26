@@ -1,4 +1,3 @@
-package javapractice;
 
 public class DoWhileloop {
 

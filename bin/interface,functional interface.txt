@@ -1,0 +1,30 @@
+Interface: interface has only abstract methods.interface methods do not have a body, on implementation of interface you must override all of its methods.
+Example:Banking System.
+Note:if child classes forget to implement abstract method of interface then java will throw compile time error.
+Implementation of interface:
+
+			in banking system every bank should have debit money, credit money. those are abstract methods, if we want check bank balance then we implement both abstract methods.
+
+Functional Interface:functional interface has only one abstract metod . so functional interface is also called single abstraction method[sam].in functional interface we use @functionalInterface annotation.this annotation gives the instruction to the compiler this is the functional interface.
+functional interface can be implemented by using lambdaexpresssions[syntax:(parameters)->expression]
+
+Built-in java functional interfaces:
+		Runnable:this interface contains only run()method
+		comparable:this interface contains only compareTO()method
+		ActionListener:this interface contains only actionPerformed()method.
+		Callable:this interface only contains the call() method.
+
+Types of Functional interfaces:
+			Consumer->Bi.consumer
+			Predicate->bi.predicate
+			Function->bi.function
+
+	Consumer: the Consumer interface only accepts the  one arguments and no return type.
+	predicate:it accepts an argument and  some sorting is done and  returns  boolean value.
+	Function:functional interface only accepts single argument and returns a value  after the required processing 
+
+Abstraction: abstraction is a mechanism to hide the non essential or confidential information from user. 
+	Example:banking system->in bank we credit the balance and also debit the balance but actually we dont know the internally how the process is going on for credit the balance
+
+Encapsulation:is a process of binds the data(member variables) and behaviour(methods) together in a single unit 
+         Example: a bag contains different stuff like pen,pencil,notebook.

@@ -1,4 +1,4 @@
-package Karthik5;
+package karthik5;
 
 public class FibonacciSeries {
     public static void main(String[] args) {
@@ -14,4 +14,3 @@ public class FibonacciSeries {
         }
     }
 }
-     

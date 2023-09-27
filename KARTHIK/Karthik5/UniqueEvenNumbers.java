@@ -1,4 +1,4 @@
-package Karthik5;
+package karthik5;
 public class UniqueEvenNumbers {
     public static void main(String[] args) {
         int[] elements = {1, 1, 2, 2, 4, 3, 6, 5, 5, 7, 6, 8, 2, 1, 8, 5};
@@ -14,7 +14,7 @@ public class UniqueEvenNumbers {
                 continue;
             }
 
-            if (isEven(current)) {
+            if (current%2==0) {
                 System.out.print(current + " ");
 
                 // Mark all occurrences of the current number as seen
@@ -27,9 +27,5 @@ public class UniqueEvenNumbers {
         }
     }
 
-    // Function to check if a number is even
-    private static boolean isEven(int num) {
-        return num % 2 == 0;
-    }
 }
 

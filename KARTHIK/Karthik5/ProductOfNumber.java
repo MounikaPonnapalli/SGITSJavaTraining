@@ -1,4 +1,4 @@
-package Karthik5;
+package KARTHIK.karthik5;
 public class ProductOfNumber {
     public static void main(String[] args) {
         long product = 1; // Initialize the product to 1

@@ -16,7 +16,7 @@ public class PrintEven {
 	            boolean isDuplicate = false;
 	            
 	            
-	            for (int j = 1; j < uniqueCount; j++) {
+	            for (int j = 0; j < uniqueCount; j++) {
 	                if (arr[i] == uniqueArr[j]) {
 	                    isDuplicate = true;
 	                    break;

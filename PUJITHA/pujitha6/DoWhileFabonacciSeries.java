@@ -7,7 +7,7 @@ public class DoWhileFabonacciSeries {
         int b = 1;
      do{
     	  
-            a = a + b;
+            a += b;
             b = a - b;
             System.out.print(" "+ b);
           
